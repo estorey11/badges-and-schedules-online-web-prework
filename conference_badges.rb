@@ -14,5 +14,7 @@ end
 def assign_rooms(name_list)
   room_list=[]
   name_list.each_with_index do |name, i|
-    room_list<<
+    room_list<<"Hello, #{name}! You'll be assigned to room #{i+1!"
+  end
+  room_list
 end
